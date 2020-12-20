@@ -1,0 +1,10 @@
+{
+    "testEnvironment": "./environment",
+    "testRunner": "jest-circus/runner",
+    "testTimeout": 60000,
+    "testRegex": "\\.spec\\.js$",
+    "reporters": [
+        "detox/runners/jest/streamlineReporter"
+    ],
+    "verbose": true
+}
