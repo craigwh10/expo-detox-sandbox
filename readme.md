@@ -9,3 +9,7 @@ Tools:
 - Detox E2E
 - Jest circus & Jest test runner.
 - Detox expo helpers
+
+# TODO:
+
+- Set up environment for actions runner
