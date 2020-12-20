@@ -4,7 +4,7 @@ Includes the expo build binaries so that you don't have to use expo build and wa
 
 From https://expo.io/tools.
 
-Tools:
+#### Tools:
 
 - Detox E2E
 - Jest circus & Jest test runner.
