@@ -10,6 +10,6 @@ From https://expo.io/tools.
 - Jest circus & Jest test runner.
 - Detox expo helpers
 
-### TODO:
+#### TODO:
 
-- Set up environment for actions runner
+- Set up environment for actions runner.
