@@ -7,7 +7,8 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "e2e": "detox test --configuration ios",
-    "e2e:ci": "detox test --configuration ios --cleanup"
+    "e2e:ci": "detox test --configuration ios --cleanup",
+    "test:unit": "jest *.unit.spec.js"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.7",
@@ -17,15 +18,18 @@
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
     "react-native-web": "~0.13.12",
+    "react-test-renderer": "^17.0.1",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",
+    "babel-jest": "^26.6.3",
     "detox": "^17.14.6",
     "detox-expo-helpers": "^0.6.0",
     "expo-detox-hook": "^1.0.10",
     "jest": "^26.6.3",
     "jest-circus": "^26.6.3",
+    "jest-expo": "^40.0.1",
     "jest-styled-components": "^7.0.3"
   },
   "private": true
